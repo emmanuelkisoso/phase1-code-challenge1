@@ -1,32 +1,24 @@
-// a function that shows the grade groups and the respective grades to be show
-function descriptionOfGrades(marks) {
-    const marks=78
-    if (marks >79) {
-        return 'A';
+// declare a variable for the marks of the students and then use statements to define grade achieved
+const marks =78
+    if (marks >79 && marks <=100) {
+        console.log ("A")
     }
     else if (marks <=79 && marks >=60) {
-        return 'B';
+        console.log ("B")
     }
     else if (marks <=59 && marks >=49) {
-        return 'C';
+        console.log ("C")
     }
     else if (marks <=48 && marks >40) {
-        return 'D';
+        console.log ("D")
     }
-    else {
-        return 'E';
+    else if (marks <40 && marks >=0) {
+        console.log ("E")
     }
+    else{
+        console.log ("Please enter a number from 0 to 100")
+    }
+// create a loop to do the grading repeatedly
+for (let index = 0; index < marks.length; index= index + 1) {
+    console.log(marks);
 }
-// a function that will allow users to put in marks,display an error if wrong and calculate the grade if input is correct
-function displayGrades() {
-    let marks =parseFloat(prompt("student marks"));
-    if (isNaN(marks) || marks <0 || marks >100) {
-        console.log("Please put a number from 0 to 100");
-    }
-    else {
-        let grade = descriptionOfGrades(marks);
-        console.log (grade);
-    }
-}
-// calling the above function to calculate and display the students grade
-displayGrades();
