@@ -84,6 +84,6 @@ function calculateNetSalary(basicsalary, allowances) {
 // an example to define the basic salary and the allowances
 const basicsalary=30029900;
 const allowances=2999000;
-
+// calculate the net salary by invoking the above function and print out the result in the console
 const netSalary=calculateNetSalary(basicsalary,allowances);
 console.log("Net Salary:"+ netSalary);

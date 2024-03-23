@@ -6,9 +6,9 @@
 
 ## Description
 It contains the three solutions for the three challenges.
-1.Student Grade Generator
-2.Speed Detector
-3.Net Salary Calculator
+1.Student Grade Generator.
+2.Speed Detector.
+3.Net Salary Calculator.
 
 ## Installation
 You use git clone to be able to download the files in the GitHub.

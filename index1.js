@@ -15,7 +15,7 @@ const marks =78
     else if (marks <40 && marks >=0) {
         console.log ("E")
     }
-// print an error message if number is not in the 0 to 100 range
+// print an error message if the number is not in the 0 to 100 range
     else{
         console.log ("Please enter a number from 0 to 100")
     }

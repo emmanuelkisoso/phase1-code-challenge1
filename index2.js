@@ -8,7 +8,9 @@ function speedDetector(speed) {
         return "Ok";
     }
     else {
+        // calculate the kms gone with a speed over the limit
         const kmOverLimit=speed-speedLimit;
+        // calculate the points and return various messages using conditionals
         const points=kmOverLimit/kmPerDemeritPoint;
         if (points>12) {
             return "License Suspended";
